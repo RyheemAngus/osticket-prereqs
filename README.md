@@ -22,7 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Enable IIS in Windoes with CGI and Common HTTP Features
+- Enable IIS in Windows with CGI and Common HTTP Features
 - Install PHP Manager for IIS (pHP 8.0 recommended)
 - Install MySQL Server and create a database for osTicket
 - Install C++ Redistributable
