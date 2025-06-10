@@ -52,7 +52,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/5C3JtXJ.png" height="80%" width="80%" alt="PHP Installation"/>
 </p>
 <p>
-  <ol start="5">
+<ol start="5">
 <li>Download and install PHP Manager for IIS</li>
 <li>Download PHP 8.0 and unzip to C:\PHP</li>
 <li>Configure IIS to use PHP by registering the PHP verison </li>
@@ -61,10 +61,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<<img src="https://i.imgur.com/8QnYdQl.png" height="80%" width="80%" alt="osTicket Installation"/>
+<img src="https://i.imgur.com/8QnYdQl.png" height="80%" width="80%" alt="osTicket Installation"/>
 </p>
 <p>
-  <ol start="9">
+<ol start="9">
 <li>Download osTicket from the offical website</li>
 <li>Extract and copy the "upload" folder to c:\inetpub\wwwroot, renaming it to "osticket"</li>
 <li>Complete the osTicket web installer by configuring database settings</li>
