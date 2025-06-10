@@ -16,6 +16,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- PHP Mangaer for IIS
+- MySQL 
+- HeidiSQL
+- osTicket v1.18
 
 <h2>Operating Systems Used </h2>
 
@@ -23,34 +27,48 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Enable IIS in Windoes with CGI and Common HTTP Features
+- Install PHP Manager for IIS (pHP 8.0 recommended)
+- Install MySQL Server and create a database for osTicket
+- Install C++ Redistributable
+- Install osTicket files and configure permissions
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tmP4oED.png" height="80%" width="80%" alt="IIS Installation"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<ol> 
+<li>Launch Azure Portal and create a Windows 10 Virtual machine</li>
+<li>Connect to the VM via Remote Desktop Connetion</li>
+<li>Enable IIS in Windows Features (Add roles and Features)</li>
+<li>Install Web Platform Installer to add required componets</li>
+</ol>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5C3JtXJ.png" height="80%" width="80%" alt="PHP Installation"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  <ol start="5">
+<li>Download and install PHP Manager for IIS</li>
+<li>Download PHP 8.0 and unzip to C:\PHP</li>
+<li>Configure IIS to use PHP by registering the PHP verison </li>
+<li>Install MySQL Server and create a database named 'osticket'</li>
+</p>
+<br />
+
+<p>
+<<img src="https://i.imgur.com/8QnYdQl.png" height="80%" width="80%" alt="osTicket Installation"/>
+</p>
+<p>
+  <ol start="9">
+<li>Download osTicket from the offical website</li>
+<li>Extract and copy the "upload" folder to c:\inetpub\wwwroot, renaming it to "osticket"</li>
+<li>Complete the osTicket web installer by configuring database settings</li>
+<li>Clean up by deleting the setup folder and setting config permissions'</li>
+  </ol>
 </p>
 <br />
