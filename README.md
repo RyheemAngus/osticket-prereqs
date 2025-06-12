@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install osTicket files and configure permissions
 
 <h2>Installation Steps</h2>
-i need to add screenshots
+
 <p>
 <img src="https://i.imgur.com/tmP4oED.png" height="80%" width="80%" alt="IIS Installation"/>
 </p>
