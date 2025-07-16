@@ -66,7 +66,15 @@ I also installed and set up MySQL 5.5.62 with:
 - Username: root
 - Password: ROOT
 Later on I encountered some trouble with the password, but the solution was making the whole password capital letters rather than just the R. 
+</p>
+<br />
 
+<p>
+osTicket Deployment
+
+Unzip osTicket-v1.15.8.zip → Copy upload folder to C:\inetpub\wwwroot → Rename to osTicket.
+Screenshot:
+File Explorer showing the renamed osTicket folder in wwwroot.
 </p>
 <br />
 
@@ -74,7 +82,13 @@ Later on I encountered some trouble with the password, but the solution was maki
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Configure IIS
+
+Register PHP in IIS (PHP Manager → C:\PHP\php-cgi.exe).
+Enable extensions:
+php_imap.dll
+php_intl.dll
+php_opcache.dll
 </p>
 <br />
 
@@ -82,7 +96,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Finalize osTicket
+
+Rename ost-sampleconfig.php to ost-config.php.
+Set permissions: Everyone → Full Control.
+Create database in HeidiSQL:
+sql
+CREATE DATABASE osTicket
 </p>
 <br />
 
@@ -90,6 +110,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Complete setup
+
+Access osTicket at http://localhost/osTicket/scp/login.php
 </p>
 <br />
