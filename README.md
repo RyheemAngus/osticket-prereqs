@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2></h2>Azure VM Setup</p>h2>
+<h2>Azure VM Setup</h2>
 
 Create a Windows 10 VM with:
 - Name: osticket-vm
