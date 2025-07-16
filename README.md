@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Azure VM Setup
+<h2></h2>Azure VM Setup</p>h2>
 
 Create a Windows 10 VM with:
 - Name: osticket-vm
@@ -51,7 +51,7 @@ Then I proceeded to log into the virtual machine wwith remote desktop.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install Dependencies
+<h2>Install Dependencies</h2>
 
 Firstly I had to ensure I enabled and installed the correct programs to allow osTicket to work.
 
@@ -70,7 +70,7 @@ Later on I encountered some trouble with the password, but the solution was maki
 <br />
 
 <p>
-osTicket Deployment
+<h2>osTicket Deployment</h2>
 
 Unzip osTicket-v1.15.8.zip → Copy upload folder to C:\inetpub\wwwroot → Rename to osTicket.
 Screenshot:
@@ -82,7 +82,7 @@ File Explorer showing the renamed osTicket folder in wwwroot.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Configure IIS
+<h2>Configure IIS</h2>
 
 Register PHP in IIS (PHP Manager → C:\PHP\php-cgi.exe).
 Enable extensions:
@@ -96,7 +96,7 @@ php_opcache.dll
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Finalize osTicket
+<h2>Finalize osTicket</h2>
 
 Rename ost-sampleconfig.php to ost-config.php.
 Set permissions: Everyone → Full Control.
@@ -110,7 +110,7 @@ CREATE DATABASE osTicket
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Complete setup
+<h2>Complete setup</h2>
 
 Access osTicket at http://localhost/osTicket/scp/login.php
 </p>
