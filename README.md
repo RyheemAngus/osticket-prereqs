@@ -86,10 +86,10 @@ php_intl.dll
 php_opcache.dll
 </p>
 <br />
-
 <p>
-<img width="943" height="533" alt="Image" src="https://github.com/user-attachments/assets/30bcc61c-419f-4c12-9ff5-050fe580bce7" />
+<img width="2240" height="1260" alt="Image" src="https://github.com/user-attachments/assets/7ab82f58-1e9f-4d74-b509-4931e20885af" />
 </p>
+
 <p>
 <h2>Finalize osTicket</h2>
 
@@ -99,6 +99,9 @@ Create database in HeidiSQL:
 sql
 CREATE DATABASE osTicket
 </p>
+<p>
+<img width="579" height="407" alt="Image" src="https://github.com/user-attachments/assets/86a7e1a0-226d-4d0f-9123-39fa3eb5528f" />
+</p>
 <br />
 
 <p>
@@ -107,6 +110,6 @@ CREATE DATABASE osTicket
 Access osTicket at http://localhost/osTicket/scp/login.php
 </p>
 <p>
-<img width="2240" height="1260" alt="Image" src="https://github.com/user-attachments/assets/77422cdd-8760-4d91-aff7-802b0a2441cd" />
+<img width="2240" height="1260" alt="Image" src="https://github.com/user-attachments/assets/52ef20bf-c3b5-4368-b0d3-c19c091fc9ea" />
 </p>
 <br />
