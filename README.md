@@ -33,9 +33,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <h2>Azure VM Setup</h2>
 
 Create a Windows 10 VM with:
@@ -45,11 +42,11 @@ Create a Windows 10 VM with:
 
 Then I proceeded to log into the virtual machine wwith remote desktop.
 </p>
+<p>
+<img width="2240" height="1260" alt="Image" src="https://github.com/user-attachments/assets/dcb0ee49-107e-48f2-8d6f-f58b98c99684" />
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 <h2>Install Dependencies</h2>
 
@@ -67,20 +64,18 @@ I also installed and set up MySQL 5.5.62 with:
 - Password: ROOT
 Later on I encountered some trouble with the password, but the solution was making the whole password capital letters rather than just the R. 
 </p>
+<p>
+<img width="1434" height="815" alt="Image" src="https://github.com/user-attachments/assets/fd3367f8-68a1-4e82-97ff-aa7ab233e484" />
+</p>
 <br />
 
 <p>
 <h2>osTicket Deployment</h2>
 
 Unzip osTicket-v1.15.8.zip → Copy upload folder to C:\inetpub\wwwroot → Rename to osTicket.
-Screenshot:
-File Explorer showing the renamed osTicket folder in wwwroot.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 <h2>Configure IIS</h2>
 
@@ -93,7 +88,7 @@ php_opcache.dll
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="943" height="533" alt="Image" src="https://github.com/user-attachments/assets/30bcc61c-419f-4c12-9ff5-050fe580bce7" />
 </p>
 <p>
 <h2>Finalize osTicket</h2>
@@ -107,11 +102,11 @@ CREATE DATABASE osTicket
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <h2>Complete setup</h2>
 
 Access osTicket at http://localhost/osTicket/scp/login.php
+</p>
+<p>
+<img width="2240" height="1260" alt="Image" src="https://github.com/user-attachments/assets/77422cdd-8760-4d91-aff7-802b0a2441cd" />
 </p>
 <br />
