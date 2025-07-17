@@ -85,10 +85,10 @@ php_imap.dll
 php_intl.dll
 php_opcache.dll
 </p>
-<br />
 <p>
 <img width="2240" height="1260" alt="Image" src="https://github.com/user-attachments/assets/7ab82f58-1e9f-4d74-b509-4931e20885af" />
 </p>
+<br />
 
 <p>
 <h2>Finalize osTicket</h2>
