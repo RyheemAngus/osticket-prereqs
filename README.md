@@ -89,9 +89,12 @@ php_opcache.dll
 <h2>Finalize osTicket</h2>
 
 Rename ost-sampleconfig.php to ost-config.php.
+
 Set permissions: Everyone → Full Control.
+
 Create database in HeidiSQL:
 sql
+
 CREATE DATABASE osTicket
 </p>
 <p>
